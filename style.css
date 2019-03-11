@@ -1,0 +1,87 @@
+body {
+background-color: #f8f9fb;
+color: #65c6c4;
+font-family: 'Lora', serif;
+letter-spacing: 1px;
+font-weight: lighter;
+margin-left: 20px;
+} 
+h1{
+	color: #113f67;
+	font-family: lora;
+	letter-spacing: 8px;
+	font-size: 60px;
+	text-align: center;
+}
+
+h2{
+	color: #408ab4;
+}
+
+
+
+a{
+	text-decoration: none;
+	t
+}
+a:hover {
+	color: blue;
+}
+
+.align{
+	text-align: center;
+
+}
+
+.alignspace{
+  display: flex;
+	justify-content: space-around;
+}
+
+img {
+display:block;
+width:auto;
+margin-left:auto;
+margin-right:auto;
+border-radius: 50%;
+}
+
+div {
+background: white ;
+padding: 50px ;
+border-top: 1px ;
+border-right: 500px ;
+border-bottom: 1px ;
+border-left: 500px ;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1) ;
+border-radius: 4px ; 
+}
+
+.respo {
+	width: 700px;
+    margin: 10px auto;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .respo {
+    width: 700px;
+	margin: 10px auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .respo {
+    width: 500px;
+   	margin: 10px auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .respo {
+    width: 300px;
+    margin: 10px auto;
+  }
+}
+
